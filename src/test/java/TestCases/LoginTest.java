@@ -20,7 +20,7 @@ public class LoginTest {
 	}
 	@Test
 	public void doLogin() {
-		
+		//Using EGIT plugin
 		driver.get("https://www.zoho.com/");
 		driver.findElement(By.cssSelector(".zh-login")).click();
 		driver.findElement(By.cssSelector("#login_id")).sendKeys("avisushu1116@gmail.com");
