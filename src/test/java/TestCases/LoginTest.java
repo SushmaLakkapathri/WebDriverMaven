@@ -29,6 +29,7 @@ public class LoginTest {
 		driver.findElement(By.cssSelector("#nextbtn")).click();
 		driver.findElement(By.cssSelector("._logo-crm._logo-x96.zod-app-logo")).click();
 	}
+	
 	@AfterSuite
 	public void teardown() {
 		driver.quit();
